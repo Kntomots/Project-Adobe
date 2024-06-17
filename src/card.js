@@ -1,10 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import Photo from './photo.js'
 import './index.css'
-import AnotherComp from './Pages/SingleCard.js'
 
 
- const  Car =  ({id, title, body})=> {
+ const  Card =  ({id, title, body})=> {
     
     
     const navigate = useNavigate();
@@ -36,4 +35,4 @@ return(
 )
 
 }
-export default Car
+export default Card

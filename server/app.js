@@ -27,7 +27,6 @@ app.get('/posts', async (req, res) => {
         mergedData[photo.id] = { id: photo.id, photos: [photo] };
       }
     });
-    console.log(mergedData[1])
     const mergedArray = Object.values(mergedData);
 
     res.json(mergedArray);
